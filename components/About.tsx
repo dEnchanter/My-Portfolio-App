@@ -34,14 +34,22 @@ export default function About({}: Props) {
       <div className='space-y-10 px:0 md:px-10'>
         <h4 className='mt-[5rem] text-4xl font-semibold'>Here is a {" "}<span className='underline decoration-[#F7AB0A]/50'>little</span> background</h4>
         <p className='text-sm'>
-          Ardent Software Engineer with a core foundation in computer science and extensive experience in the fast-paced fintech industry. Specialized in architecting and developing secure, 
-          scalable payment solutions that drive financial inclusivity and streamline transaction processes. Over [5years] of hands-on experience in full-stack development, 
-          I have contributed to the end-to-end delivery of cutting-edge financial technologies that solve complex challenges and enhance user experiences.
+          Versatile Software Engineer with <strong>5+ years</strong> of expertise spanning <strong>AI/ML development, quantitative finance,
+          and enterprise software engineering</strong>. Specialized in building production-grade financial systems while developing machine
+          learning models that exploit market inefficiencies. Pioneer in integrating <strong>AI agents and Large Language Models (LLMs)</strong>
+          into software development workflows and business applications.
         </p>
         <p className='text-sm'>
-          At the core of my expertise lies a deep proficiency in [Javascript and its ecosystem, Spring Boot(Java), Go, Rust, 
-          and a nuanced understanding of payment gateway integrations, blockchain technology, and digital wallet services. 
-          My passion for technology is matched by my commitment to creating user-centric solutions, demonstrated through my contributions to projects that have processed millions in transactions securely and efficiently.
+          Experienced in <strong>Web3/DAO technologies</strong> and blockchain-based solutions. Proven track record of architecting scalable
+          fintech platforms processing <strong>60K+ daily transactions</strong> with <strong>$2M+ monthly transaction volume</strong> while
+          conducting quantitative research and model development for algorithmic trading strategies. At the core of my expertise lies deep
+          proficiency in JavaScript ecosystem, Spring Boot, Golang, Python/ML frameworks, and comprehensive understanding of payment gateway
+          integrations, blockchain technology, and digital wallet services.
+        </p>
+        <p className='text-sm'>
+          My passion for technology is matched by my commitment to creating user-centric solutions, demonstrated through contributions to
+          projects that have processed millions in transactions securely and efficiently, while maintaining a focus on continuous learning
+          in emerging technologies like AI, quantitative finance, and decentralized systems.
         </p>
       </div>
 
