@@ -14,3 +14,57 @@
     hover:border-[#F7AB0A]/40
   }
 }
+
+/* Print Styles */
+@media print {
+  /* Remove browser default headers and footers */
+  @page {
+    margin: 0;
+    size: auto;
+  }
+
+  /* Remove all backgrounds and borders */
+  body {
+    background: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Remove dark background wrapper */
+  body > div {
+    background: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Remove shadows, borders, and rounded corners from resume container */
+  .resume-container {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 1cm !important;
+    max-width: 100% !important;
+  }
+
+  /* Ensure content fits properly */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide elements that shouldn't be printed */
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Prevent page breaks inside important sections */
+  h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  ul, ol {
+    page-break-inside: avoid;
+  }
+}
